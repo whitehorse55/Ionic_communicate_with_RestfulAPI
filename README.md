@@ -1,8 +1,11 @@
 # Ionic_communicate_with_RestfulAPI
 How To use this module
 //////////////////////////////////////////////////////////example//////////////////////////////////////////////////////////////
-  onSubmit() {
+  onSubmit()
+  {
+  
     let newInfo = new FormData();
+    
     newInfo.append("first_name", this.userInfo.firstname);
     
     newInfo.append("last_name", this.userInfo.lastname);
