@@ -78,7 +78,6 @@ export class RestfulAPIService {
   public URL_TOPUP_PACKAGES = "topuppackages/";
   public URL_GET_SETTING = "settings/";
 
-
   /**
    * Token
    */
