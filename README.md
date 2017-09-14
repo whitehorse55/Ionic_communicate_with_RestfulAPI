@@ -244,7 +244,6 @@ export class RestfulAPIService {
       console.log("restful token=====>", this.token);
     }
     var requestOptions = new RequestOptions({ "headers": headers });
-
     return requestOptions;
   }
 
